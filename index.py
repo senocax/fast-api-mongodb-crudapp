@@ -10,6 +10,6 @@ app.include_router(student_router)
 app.add_middleware(CORSMiddleware,
                    allow_origins=clients_app,
                    allow_credentials=True,
-                   allow_methods =[*],
-                   allow_headers=[*]
+                   allow_methods=['*'],
+                   allow_headers=['*']
                    )
